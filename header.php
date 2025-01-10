@@ -1,94 +1,73 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> class="scroll-smooth">
+
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class( 'bg-white text-gray-900 antialiased' ); ?>>
+<body class="antialiased">
 
-<?php do_action( 'icait_site_before' ); ?>
+	<?php do_action('icait_site_before'); ?>
 
-<div id="page" class="min-h-screen flex flex-col">
+	<?php do_action('icait_header'); ?>
 
-	<?php do_action( 'icait_header' ); ?>
+	<header class="fixed top-0 z-50 w-full bg-san-juan-800 text-slate-50 transition-transform duration-300 translate-y-0">
 
-	<header>
-
-		<div class="mx-auto container">
-			<div class="lg:flex lg:justify-between lg:items-center border-b py-6">
-				<div class="flex justify-between items-center">
-					<div>
-						<?php if ( has_custom_logo() ) { ?>
-                            <?php the_custom_logo(); ?>
-						<?php } else { ?>
-							<a href="<?php echo get_bloginfo( 'url' ); ?>" class="font-extrabold text-lg uppercase">
-								<?php echo get_bloginfo( 'name' ); ?>
-							</a>
-
-							<p class="text-sm font-light text-gray-600">
-								<?php echo get_bloginfo( 'description' ); ?>
-							</p>
-
-						<?php } ?>
+		<div class="mx-auto flex max-w-screen-xl items-center justify-between px-6 py-4">
+			<a href="<?php echo get_bloginfo('url'); ?>/#hero" class="text-3xl font-bold uppercase">
+				<?php echo get_bloginfo('name'); ?>
+			</a>
+			<div class="hidden lg:block">
+				<nav aria-label="Main" data-orientation="horizontal" dir="ltr"
+					class=" relative z-10 flex max-w-max flex-1 items-center justify-start">
+					<div style="position:relative">
+						<?php
+						function add_link_class($atts, $item, $args)
+						{
+							// Periksa apakah $args->theme_location sesuai dengan menu yang dimaksud
+							if (isset($args->theme_location) && $args->theme_location === 'primary') {
+								// Tambahkan class pada tag <a>
+								$atts['class'] = 'group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 bg-san-juan-600/0 text-sm text-slate-50 hover:bg-san-juan-600 hover:text-slate-50';
+							}
+							return $atts;
+						}
+						add_filter('nav_menu_link_attributes', 'add_link_class', 10, 3);
+						wp_nav_menu(
+							array(
+								'container' => false,
+								'menu_class'      => 'group flex flex-1 list-none items-center justify-center space-x-1',
+								'theme_location'  => 'primary',
+								'link_class'        => 'group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 bg-san-juan-600/0 text-sm text-slate-50 hover:bg-san-juan-600 hover:text-slate-50',
+								'fallback_cb'     => false,
+							)
+						);
+						?>
 					</div>
-
-					<div class="lg:hidden">
-						<a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
-							<svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1"
-								 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-								<g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
-									<g id="icon-shape">
-										<path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z"
-											  id="Combined-Shape"></path>
-									</g>
-								</g>
-							</svg>
-						</a>
-					</div>
-				</div>
-
-				<?php
-				wp_nav_menu(
-					array(
-						'container_id'    => 'primary-menu',
-						'container_class' => 'hidden bg-gray-100 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
-						'menu_class'      => 'lg:flex lg:-mx-4',
-						'theme_location'  => 'primary',
-						'li_class'        => 'lg:mx-4',
-						'fallback_cb'     => false,
-					)
-				);
-				?>
+					<div class="absolute left-0 top-full flex justify-center"></div>
+				</nav>
 			</div>
+			<button
+				class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:shrink-0 h-10 py-2 lg:hidden hover: px-0 text-slate-50 hover:bg-white/10 hover:text-slate-50 [&_svg]:size-8"
+				type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:Rrb:" data-state="closed">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+					stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+					class="lucide lucide-menu">
+					<line x1="4" x2="20" y1="12" y2="12"></line>
+					<line x1="4" x2="20" y1="6" y2="6"></line>
+					<line x1="4" x2="20" y1="18" y2="18"></line>
+				</svg>
+				<span class="sr-only">Toggle Menu</span>
+			</button>
 		</div>
 	</header>
 
 	<div id="content" class="site-content flex-grow">
 
-		<?php if ( is_front_page() ) { ?>
-			<!-- Start introduction -->
-			<div class="container mx-auto">
-				<div class="px-12 py-16 my-12 rounded-xl bg-gradient-to-r from-blue-50 from-10% via-sky-100 via-30% to-blue-200 to-90%">
-                    <div class="mx-auto max-w-screen-md">
-                        <h1 class="text-3xl lg:text-6xl tracking-tight font-extrabold text-gray-800 mb-6">Start building your next <a href="https://tailwindcss.com" class="text-secondary">Tailwind CSS</a> flavoured WordPress theme
-                            with <a href="https://tailpress.io" class="text-primary">TailPress</a>.</h1>
-                        <p class="text-gray-600 text-xl font-medium mb-10">TailPress is your go-to starting
-                            point for developing WordPress themes with Tailwind CSS and comes with basic block-editor support out
-                            of the box.</p>
-                        <a href="https://github.com/jeffreyvr/tailpress"
-                            class="w-full sm:w-auto flex-none bg-gray-900 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">View
-                            on GitHub</a>
-                    </div>
-                </div>
-			</div>
-			<!-- End introduction -->
-		<?php } ?>
-
-		<?php do_action( 'icait_content_start' ); ?>
+		<?php do_action('icait_content_start'); ?>
 
 		<main>
