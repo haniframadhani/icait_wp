@@ -1,19 +1,7 @@
-// Navigation toggle
-window.addEventListener("load", function () {
-  let main_navigation = document.querySelector("#primary-menu");
-  document
-    .querySelector("#primary-menu-toggle")
-    .addEventListener("click", function (e) {
-      e.preventDefault();
-      main_navigation.classList.toggle("hidden");
-    });
-});
-
 document.addEventListener("DOMContentLoaded", () => {
   let isVisible = true;
   let lastScrollY = 0;
 
-  // Ambil elemen <header> dari HTML
   const header = document.querySelector("header");
 
   if (!header) {
@@ -29,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     lastScrollY = window.scrollY;
 
-    // Update visibility dengan toggle kelas CSS
     header.classList.toggle("translate-y-0", isVisible);
     header.classList.toggle("-translate-y-full", !isVisible);
   };

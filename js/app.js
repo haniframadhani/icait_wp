@@ -7,19 +7,9 @@
   \*****************************/
 /***/ (() => {
 
-// Navigation toggle
-window.addEventListener("load", function () {
-  var main_navigation = document.querySelector("#primary-menu");
-  document.querySelector("#primary-menu-toggle").addEventListener("click", function (e) {
-    e.preventDefault();
-    main_navigation.classList.toggle("hidden");
-  });
-});
 document.addEventListener("DOMContentLoaded", function () {
   var isVisible = true;
   var lastScrollY = 0;
-
-  // Ambil elemen <header> dari HTML
   var header = document.querySelector("header");
   if (!header) {
     console.error("Elemen <header> tidak ditemukan di halaman.");
@@ -32,8 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
       isVisible = true;
     }
     lastScrollY = window.scrollY;
-
-    // Update visibility dengan toggle kelas CSS
     header.classList.toggle("translate-y-0", isVisible);
     header.classList.toggle("-translate-y-full", !isVisible);
   };
