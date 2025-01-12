@@ -189,6 +189,113 @@
             <div class="w-4 h-[30px] bg-gradient-to-b from-san-juan-500 to-san-juan-950 rounded-lg"></div>
             <h3 class="text-2xl font-medium">Timeline</h3>
           </div>
+          <div class="relative overflow-x-hidden px-[120px] md:px-[150px]">
+            <ol class="flex flex-col">
+              <li class="relative flex flex-col p-6 pt-0 [&amp;>*]:mb-3">
+                <div class="left-7.5 absolute top-0.5 h-full w-px -translate-x-1/2 translate-y-2 bg-san-juan-700"></div>
+                <div class="flex items-start gap-4">
+                  <p
+                    class="overflow-wrap absolute w-[130px] -translate-x-36 break-words text-right text-secondary-foreground md:w-[130px] text-sm leading-3.5 font-semibold tracking-tight">
+                    31<sup>th</sup> March 2025</p>
+                  <div
+                    class="left-0 flex size-3 flex-shrink-0 flex-grow-0 flex-col rounded-full bg-san-juan-700 md:left-[30px]">
+                  </div>
+                  <h3 class="w-[150px] text-secondary-foreground text-sm leading-3.5 font-semibold tracking-tight">
+                    Submission Deadline (Batch 1)</h3>
+                </div>
+              </li>
+              <li class="relative flex flex-col p-6 pt-0 [&amp;>*]:mb-3">
+                <div class="left-7.5 absolute top-0.5 h-full w-px -translate-x-1/2 translate-y-2 bg-san-juan-700"></div>
+                <div class="flex items-start gap-4">
+                  <p
+                    class="overflow-wrap absolute w-[130px] -translate-x-36 break-words text-right text-secondary-foreground md:w-[130px] text-sm leading-3.5 font-semibold tracking-tight">
+                    15<sup>th</sup> May 2025</p>
+                  <div
+                    class="left-0 flex size-3 flex-shrink-0 flex-grow-0 flex-col rounded-full bg-san-juan-700 md:left-[30px]">
+                  </div>
+                  <h3 class="w-[150px] text-secondary-foreground text-sm leading-3.5 font-semibold tracking-tight">
+                    Notification of acceptance (Batch 1)</h3>
+                </div>
+              </li>
+              <li class="relative flex flex-col p-6 pt-0 [&amp;>*]:mb-3">
+                <div class="left-7.5 absolute top-0.5 h-full w-px -translate-x-1/2 translate-y-2 bg-san-juan-700"></div>
+                <div class="flex items-start gap-4">
+                  <p
+                    class="overflow-wrap absolute w-[130px] -translate-x-36 break-words text-right text-secondary-foreground md:w-[130px] text-sm leading-3.5 font-semibold tracking-tight">
+                    30<sup>th</sup> June 2025</p>
+                  <div
+                    class="left-0 flex size-3 flex-shrink-0 flex-grow-0 flex-col rounded-full bg-san-juan-700 md:left-[30px]">
+                  </div>
+                  <h3 class="w-[150px] text-secondary-foreground text-sm leading-3.5 font-semibold tracking-tight">
+                    Submission Deadline (Batch 2)</h3>
+                </div>
+              </li>
+              <li class="relative flex flex-col p-6 pt-0 [&amp;>*]:mb-3">
+                <div class="left-7.5 absolute top-0.5 h-full w-px -translate-x-1/2 translate-y-2 bg-san-juan-700"></div>
+                <div class="flex items-start gap-4">
+                  <p
+                    class="overflow-wrap absolute w-[130px] -translate-x-36 break-words text-right text-secondary-foreground md:w-[130px] text-sm leading-3.5 font-semibold tracking-tight">
+                    31<sup>st</sup> July 2025</p>
+                  <div
+                    class="left-0 flex size-3 flex-shrink-0 flex-grow-0 flex-col rounded-full bg-san-juan-700 md:left-[30px]">
+                  </div>
+                  <h3 class="w-[150px] text-secondary-foreground text-sm leading-3.5 font-semibold tracking-tight">
+                    Notification of acceptance (Batch 2)</h3>
+                </div>
+              </li>
+              <li class="relative flex flex-col p-6 pt-0 [&amp;>*]:mb-3">
+                <div class="left-7.5 absolute top-0.5 h-full w-px -translate-x-1/2 translate-y-2 bg-san-juan-700"></div>
+                <div class="flex items-start gap-4">
+                  <p
+                    class="overflow-wrap absolute w-[130px] -translate-x-36 break-words text-right text-secondary-foreground md:w-[130px] text-sm leading-3.5 font-semibold tracking-tight">
+                    15<sup>th</sup> August 2025</p>
+                  <div
+                    class="left-0 flex size-3 flex-shrink-0 flex-grow-0 flex-col rounded-full bg-san-juan-700 md:left-[30px]">
+                  </div>
+                  <h3 class="w-[150px] text-secondary-foreground text-sm leading-3.5 font-semibold tracking-tight">
+                    Camera Ready</h3>
+                </div>
+              </li>
+              <li class="relative flex flex-col p-6 pt-0 [&amp;>*]:mb-3">
+                <div class="left-7.5 absolute top-0.5 h-full w-px -translate-x-1/2 translate-y-2 bg-san-juan-700"></div>
+                <div class="flex items-start gap-4">
+                  <p
+                    class="overflow-wrap absolute w-[130px] -translate-x-36 break-words text-right text-secondary-foreground md:w-[130px] text-sm leading-3.5 font-semibold tracking-tight">
+                    1<sup>st</sup> September 2025</p>
+                  <div
+                    class="left-0 flex size-3 flex-shrink-0 flex-grow-0 flex-col rounded-full bg-san-juan-700 md:left-[30px]">
+                  </div>
+                  <h3 class="w-[150px] text-secondary-foreground text-sm leading-3.5 font-semibold tracking-tight">
+                    Normal Registration deadline</h3>
+                </div>
+              </li>
+              <li class="relative flex flex-col p-6 pt-0 [&amp;>*]:mb-3">
+                <div class="left-7.5 absolute top-0.5 h-full w-px -translate-x-1/2 translate-y-2 bg-san-juan-700"></div>
+                <div class="flex items-start gap-4">
+                  <p
+                    class="overflow-wrap absolute w-[130px] -translate-x-36 break-words text-right text-secondary-foreground md:w-[130px] text-sm leading-3.5 font-semibold tracking-tight">
+                    10<sup>th</sup>-11<sup>th</sup> September 2025</p>
+                  <div
+                    class="left-0 flex size-3 flex-shrink-0 flex-grow-0 flex-col rounded-full bg-san-juan-700 md:left-[30px]">
+                  </div>
+                  <h3 class="w-[150px] text-secondary-foreground text-sm leading-3.5 font-semibold tracking-tight">
+                    Conference Date</h3>
+                </div>
+              </li>
+              <li class="relative flex flex-col p-6 pt-0 [&amp;>*]:mb-3">
+                <div class="flex items-start gap-4">
+                  <p
+                    class="overflow-wrap absolute w-[130px] -translate-x-36 break-words text-right text-secondary-foreground md:w-[130px] text-sm leading-3.5 font-semibold tracking-tight">
+                    12<sup>th</sup> September 2024</p>
+                  <div
+                    class="left-0 flex size-3 flex-shrink-0 flex-grow-0 flex-col rounded-full bg-san-juan-700 md:left-[30px]">
+                  </div>
+                  <h3 class="w-[150px] text-secondary-foreground text-sm leading-3.5 font-semibold tracking-tight">One
+                    day tour</h3>
+                </div>
+              </li>
+            </ol>
+          </div>
         </div>
         <div class="w-full space-y-8 md:w-3/5">
           <div class="space-y-2">
