@@ -73,6 +73,31 @@ document.addEventListener("DOMContentLoaded", function () {
     return clearInterval(interval);
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  var button = document.querySelector("#nav-button");
+  var navMobile = document.querySelector("#nav-mobile");
+  var anchor = document.querySelectorAll(".nav-mobile");
+  if (!button || !navMobile) {
+    console.error("Button not found");
+    return;
+  }
+  button.addEventListener("click", function () {
+    var isVisible = navMobile.classList.contains("top-[4.5rem]");
+    if (isVisible) {
+      navMobile.classList.remove("top-[4.5rem]");
+      navMobile.classList.add("-top-[20rem]");
+    } else {
+      navMobile.classList.remove("-top-[20rem]");
+      navMobile.classList.add("top-[4.5rem]");
+    }
+  });
+  anchor.forEach(function (a) {
+    return a.addEventListener("click", function () {
+      navMobile.classList.remove("top-[4.5rem]");
+      navMobile.classList.add("-top-[20rem]");
+    });
+  });
+});
 
 /***/ }),
 

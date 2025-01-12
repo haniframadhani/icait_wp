@@ -74,3 +74,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("beforeunload", () => clearInterval(interval));
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.querySelector("#nav-button");
+  const navMobile = document.querySelector("#nav-mobile");
+  const anchor = document.querySelectorAll(".nav-mobile");
+
+  if (!button || !navMobile) {
+    console.error("Button not found");
+    return;
+  }
+  button.addEventListener("click", () => {
+    const isVisible = navMobile.classList.contains("top-[4.5rem]");
+    if (isVisible) {
+      navMobile.classList.remove("top-[4.5rem]");
+      navMobile.classList.add("-top-[20rem]");
+    } else {
+      navMobile.classList.remove("-top-[20rem]");
+      navMobile.classList.add("top-[4.5rem]");
+    }
+  });
+  anchor.forEach((a) =>
+    a.addEventListener("click", () => {
+      navMobile.classList.remove("top-[4.5rem]");
+      navMobile.classList.add("-top-[20rem]");
+    })
+  );
+});
