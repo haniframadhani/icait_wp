@@ -36,6 +36,7 @@
       <div>
         <span class="mb-2 block text-8xl font-extrabold tracking-wider">ICAIT</span>
         <span class="mb-1 block text-base">Started in</span>
+        <?php include 'countdown.php' ?>
       </div>
     </div>
   </div>
@@ -43,7 +44,7 @@
 
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
-  lucide.createIcons();
+lucide.createIcons();
 </script>
 
 <?php wp_footer(); ?>

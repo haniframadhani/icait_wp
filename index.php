@@ -14,6 +14,23 @@
               Driving
               Prosperity and Sustainability in the Modern World&#34;</p>
             <p class="mb-1 text-sm text-slate-50 md:text-base">Started in</p>
+            <?php
+						function add_mx_auto_to_countdown()
+						{
+							ob_start();
+							include 'countdown.php';
+							$content = ob_get_clean();
+
+							$content = str_replace(
+								'class="countdown rounded-lg text-card-foreground shadow-sm relative w-fit overflow-clip border-0 bg-san-juan-950',
+								'class="countdown rounded-lg text-card-foreground shadow-sm relative w-fit overflow-clip border-0 bg-san-juan-950 mx-auto',
+								$content
+							);
+
+							echo $content;
+						}
+						add_mx_auto_to_countdown();
+						?>
             <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 mt-6 bg-san-juan-700 hover:bg-san-juan-700/90"
               href="https://bit.ly/ICAIT2025-registration" target="_blank" rel="noopener noreferer">Registration
               Here</a>
