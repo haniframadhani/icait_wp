@@ -9,6 +9,7 @@ module.exports = {
     "./resources/css/*.css",
     "./resources/js/*.js",
     "./safelist.txt",
+    "./**/*.html",
   ],
   theme: {
     extend: {

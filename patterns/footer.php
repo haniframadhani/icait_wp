@@ -1,11 +1,10 @@
-</main>
+<?php
 
-<?php do_action('icait_content_end'); ?>
-
-</div>
-
-<?php do_action('icait_content_after'); ?>
-
+/**
+ * Title: Footer
+ * Slug: icait/footer
+ */
+?>
 <footer id="contact" class="bg-gradient-to-br from-saffron-400 to-saffron-500 px-6 pb-36 pt-6 text-slate-900 md:p-6">
   <?php do_action('icait_footer'); ?>
   <div class="mx-auto max-w-screen-xl">
@@ -41,14 +40,7 @@
     </div>
   </div>
 </footer>
-
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
   lucide.createIcons();
 </script>
-
-<?php wp_footer(); ?>
-
-</body>
-
-</html>
