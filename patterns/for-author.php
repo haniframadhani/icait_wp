@@ -254,13 +254,13 @@
               <a class="underline"
                 href="https://www.ieee.org/conferences/publishing/templates.html.">https://www.ieee.org/conferences/publishing/templates.html.</a>
             </li>
-            <!-- /wp:list -->
+            <!-- /wp:list-item -->
             <!-- wp:list-item {"className":"overflow-wrap break-words"} -->
             <li class="overflow-wrap break-words">Please submit your paper via EDAS. New users are required to register
               with EDAS before paper
               submission.
             </li>
-            <!-- /wp:list -->
+            <!-- /wp:list-item -->
           </ol>
           <!-- /wp:list -->
           <!-- wp:html -->

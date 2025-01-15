@@ -632,10 +632,6 @@ video {
     justify-content: space-between;
 }.justify-evenly{
     justify-content: space-evenly;
-}.gap-0{
-    gap: 0px;
-}.gap-0\.5{
-    gap: 0.125rem;
 }.gap-1{
     gap: 0.25rem;
 }.gap-2{
@@ -1076,8 +1072,6 @@ video {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }.md\:flex-row{
         flex-direction: row;
-    }.md\:gap-1{
-        gap: 0.25rem;
     }.md\:gap-4{
         gap: 1rem;
     }.md\:p-6{
