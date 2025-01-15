@@ -26,15 +26,13 @@
         <!-- /wp:heading -->
         <!-- wp:html -->
         <div class="space-y-2">
-          <div class="flex flex-col gap-0.5 font-medium md:flex-row md:gap-1">
-            <!-- /wp:html -->
-            <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
-            <p class="text-sm md:text-base">Dr. Dewi Pramudi Ismi, S.T., M.Sc., M.Comp.Sc
-              &#40;Universitas Ahmad Dahlan, Indonesia&#41;
-            </p>
-            <!-- /wp:paragraph -->
-            <!-- wp:html -->
-          </div>
+          <!-- /wp:html -->
+          <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
+          <p class="text-sm md:text-base">Dr. Dewi Pramudi Ismi, S.T., M.Sc., M.Comp.Sc
+            &#40;Universitas Ahmad Dahlan, Indonesia&#41;
+          </p>
+          <!-- /wp:paragraph -->
+          <!-- wp:html -->
         </div>
         <!-- /wp:html -->
         <!-- wp:html -->
@@ -48,15 +46,13 @@
         <!-- /wp:heading -->
         <!-- wp:html -->
         <div class="space-y-2">
-          <div class="flex flex-col gap-0.5 font-medium md:flex-row md:gap-1">
-            <!-- /wp:html -->
-            <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
-            <p class="text-sm md:text-base">Dr. Dewi Pramudi Ismi, S.T., M.Sc., M.Comp.Sc
-              &#40;Universitas Ahmad Dahlan, Indonesia&#41;
-            </p>
-            <!-- /wp:paragraph -->
-            <!-- wp:html -->
-          </div>
+          <!-- /wp:html -->
+          <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
+          <p class="text-sm md:text-base">Dr. Dewi Pramudi Ismi, S.T., M.Sc., M.Comp.Sc
+            &#40;Universitas Ahmad Dahlan, Indonesia&#41;
+          </p>
+          <!-- /wp:paragraph -->
+          <!-- wp:html -->
         </div>
         <!-- /wp:html -->
         <!-- wp:html -->
@@ -70,15 +66,13 @@
         <!-- /wp:heading -->
         <!-- wp:html -->
         <div class="space-y-2">
-          <div class="flex flex-col gap-0.5 font-medium md:flex-row md:gap-1">
-            <!-- /wp:html -->
-            <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
-            <p class="text-sm md:text-base">Andri Pranolo, S.T., M.Cs., PhD
-              &#40;Universitas Ahmad Dahlan, Indonesia&#41;
-            </p>
-            <!-- /wp:paragraph -->
-            <!-- wp:html -->
-          </div>
+          <!-- /wp:html -->
+          <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
+          <p class="text-sm md:text-base">Andri Pranolo, S.T., M.Cs., PhD
+            &#40;Universitas Ahmad Dahlan, Indonesia&#41;
+          </p>
+          <!-- /wp:paragraph -->
+          <!-- wp:html -->
         </div>
         <!-- /wp:html -->
         <!-- wp:html -->
@@ -92,41 +86,23 @@
         <!-- /wp:heading -->
         <!-- wp:html -->
         <div class="space-y-2">
-          <div class="flex flex-col gap-0.5 font-medium md:flex-row md:gap-1">
-            <!-- /wp:html -->
-            <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
-            <p class="text-sm md:text-base">Sheraton Prawestri, S.Kom., M.Cs.
-              &#40;Universitas Ahmad Dahlan, Indonesia&#41;
-            </p>
-            <!-- /wp:paragraph -->
-            <!-- wp:html -->
-          </div>
-        </div>
-        <!-- /wp:html -->
-        <!-- wp:html -->
-        <div class="space-y-2">
-          <div class="flex flex-col gap-0.5 font-medium md:flex-row md:gap-1">
-            <!-- /wp:html -->
-            <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
-            <p class="text-sm md:text-base">Ninda Khairunnisa, S.T., M.Sc.
-              &#40;Universitas Ahmad Dahlan, Indonesia&#41;
-            </p>
-            <!-- /wp:paragraph -->
-            <!-- wp:html -->
-          </div>
-        </div>
-        <!-- /wp:html -->
-        <!-- wp:html -->
-        <div class="space-y-2">
-          <div class="flex flex-col gap-0.5 font-medium md:flex-row md:gap-1">
-            <!-- /wp:html -->
-            <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
-            <p class="text-sm md:text-base">Jihad Rahmawan, S.T., M.Sc.
-              &#40;Universitas Ahmad Dahlan, Indonesia&#41;
-            </p>
-            <!-- /wp:paragraph -->
-            <!-- wp:html -->
-          </div>
+          <!-- /wp:html -->
+          <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
+          <p class="text-sm md:text-base">Sheraton Prawestri, S.Kom., M.Cs.
+            &#40;Universitas Ahmad Dahlan, Indonesia&#41;
+          </p>
+          <!-- /wp:paragraph -->
+          <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
+          <p class="text-sm md:text-base">Ninda Khairunnisa, S.T., M.Sc.
+            &#40;Universitas Ahmad Dahlan, Indonesia&#41;
+          </p>
+          <!-- /wp:paragraph -->
+          <!-- wp:paragraph {"className":"text-sm md:text-base"} -->
+          <p class="text-sm md:text-base">Jihad Rahmawan, S.T., M.Sc.
+            &#40;Universitas Ahmad Dahlan, Indonesia&#41;
+          </p>
+          <!-- /wp:paragraph -->
+          <!-- wp:html -->
         </div>
         <!-- /wp:html -->
         <!-- wp:html -->
